@@ -5,20 +5,20 @@
     </head>
     <body>
         <header>
+          <a href="index.html"><img src="imagens bibliotequinha/Adobe Express - file.png" 
+            alt=" Nome do site"></a>
             <nav>
-              <ul>
-                <li><a href="resenhas.html"> RESENHAS </a></li>
-                <li><a href="compre aqui.html"> COMPRE AQUI </a></li>
-                <li><a href="favoritos.html"> FAVORITOS </a></li>
-                <li><a href="playlist.html"> PLAYLIST </a></li>
-                <li> <a href="quiz.html"> QUIZ</a></li>
-              </ul>
+                <a href="resenhas.html"> RESENHAS </a>
+                <a href="favoritos.html"> FAVORITOS </a>
+                <a href="playlist.html"> PLAYLIST </a>
+                <a href="quiz.html"> QUIZ</a>
             </nav>
             </header>
+
             <main>
                 <section>
-                    <p> "Seremos a única certeza do universo" </p>
-                    <h1> Colegas de Quarto </h1>
+                    <p id="frases-de-efeito"> "Seremos a única certeza do universo" <small> Colegas de Quarto </small> </p>
+                    <h1> Resenhas </h1>
                 </section>
 
                 <nav>
@@ -28,12 +28,13 @@
                   <a href="#Distopia">Distopia</a> <br>
                   <a href="#LGBT+">LGBT+</a> <br>
                   <a href="#YOUNGADULT">YOUNGADULT</a> <br>
+                  <a href="#DarkRomance">DarkRomance</a>
                   <a href="#Generos">Generos</a>
                 </nav>
 
-                <section>
+                <section class="topicos">
                   <article>
-                    <h2 id="Romance"> Resenhas de Romance</h2>
+                    <h2 id="Romance"> Livros de Romance</h2>
                     <figure>
                       <img src="imagens bibliotequinha/romance.jpeg" alt=" Uma montagem 
                       com sugestôes de livros de romance">
@@ -42,12 +43,12 @@
                   </article>
 
                   <article>
-                    <h2 id="Fantasia"> Resenhas de Fantasia</h2>
+                    <h2 id="Fantasia"> Livros de Fantasia</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, odit!</p>
                   </article>
 
                   <article> 
-                    <h2 id="Suspense"> Resenhas de Suspense</h2>
+                    <h2 id="Suspense"> Livros de Suspense</h2>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, non!</p>
                   </article>
 
@@ -67,9 +68,14 @@
                   </article>
 
                   <article>
-                    <h2 id="Generos"> Gẽneros dos livros</h2>
+                    <h2 id="DarkRomance"> Livros Dark Romance</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, libero.</p>
+                  </article>
+
+                  <article>
+                    <h2 id="Gêneros"> Gẽneros dos livros</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, provident!</p>
-                    <div>
+                    <div class="table-responsive">
                       <table border="1">
                         <thead>
                           <tr>
@@ -116,18 +122,44 @@
                             <td> Editora Seguinte</td>                          
                           </tr>
 
+                          <tr>
+                            <td> LGBT+ </td>
+                            <td>engloba obras que representam experiências, 
+                              histórias e perspectivas da comunidade LGBTQIA+</td>
+                            <td> Um milhão de finais felizes (Vitor Martins)</td>
+                            <td> Editora Euphoria </td>
+                          </tr>
+
+                          <tr>
+                            <td> Young Adult</td>
+                            <td>As obras young adult frequentemente exploram questões como identidade, 
+                              relacionamentos, e a transição para a vida adulta, 
+                              proporcionando uma conexão emocional profunda com os leitores.</td>
+                            <td> Por Lugares Incríveis (Jennifer Niven) </td>
+                            <td> Globo Alt </td>
+                          </tr>
+
+                          <tr>
+                            <td> Dark Romance </td>
+                            <td>geralmente vem dos livros eróticos, e pode até ser considerado um sub gênero do romance, 
+                              porém ele sempre aborda temas muito polêmicos e um pouco perturbadores</td>
+                            <td> Corrupt (Penelope Douglas)</td>
+                            <td> Editora Fruto Proibido </td>
+                          </tr>
+
                         </tbody>
 
                         <tfoot>
                           <tr>
                             <td colspan="4"> <small> Para mais informações 
-                              sobre as editoras <a href="Editoras.html">Clique aqui</a></small></td>
+                              sobre as editoras <a href="editoras.html">Clique aqui</a></small></td>
                           </tr>
                         </tfoot>
                       </table>
                     </div>
                   </article>
                 </section>
+                <p id="topo"><a href="resenhas.html"> Folheei de volta ao topo</a></p>
             </main>
     </body>
 </html>
