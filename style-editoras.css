@@ -66,38 +66,3 @@ h1{
     font-size: 2rem;
     padding: 30px;
 }
-
-h2{
-    color: #246b37;
-}
-
-div {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 1000px;
-}
-
-p{
-    color: #50a357;
-    text-align: center;
-    
-}
-
-#topo{
-    padding-top: 20px;
-}
-#topo a{
-    text-decoration: none;
-    color:#50a357;
-}
-#topo a:hover{
-    color:#f2c40c;
-}
-
-footer{
-    background-color:#246b37;
-    color:#f0fcf4;
-    text-align: center;
-    padding: 20px 0px;
-}
