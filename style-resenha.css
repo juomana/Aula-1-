@@ -8,13 +8,13 @@
 
 body{
     font-family: "Indie Flower", serif;
-    color: #421280;
-    background-color: #e4d5f7;
+    color:white;
+    background-color: #f0fcf4;
     font-weight: 300;
 }
 
 header{
-    background: linear-gradient(to right, #a7dbda, #7cc2c0, #afa7db, #e4d5f7);
+    background: linear-gradient(to right, #aaeda4, #50a357, #246b37, #aaeda4);
     padding: 20px 0px;
     display: flex;
     flex-direction: column;
@@ -35,11 +35,10 @@ nav{
     justify-content: center;
 }
 
-
 nav a{
     margin: 0 10px;
     text-decoration: none;
-    color:#421280;
+    color:#f0fcf4;
     font-weight: bold;
     font-size: 22px;
     position: relative;
@@ -55,56 +54,64 @@ main{
 }
 
 #frases-de-efeito{
-    color: #289c8e;
+    color: #f2c40c;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
-    text-shadow: 0px 0px 10px #08816d;
+    text-shadow: 0px 0px 10px #a18413;
 }
 
 h1{
-    color: #421280;
+    color: #246b37;
     font-size: 2rem;
-    padding: 5px;
+    padding: 30px;
 }
 
-h2{
+.main-container{
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main-container h2 {
+   color:#246b37;
+}
+
+.main-container p {
+    color:  #50a357;
+    padding: 5px;
+    font-weight: 480;
+}
+
+.main-block {
+   background-color:#aaeda4 ;
+   border-radius: 20px;
+   box-shadow: 0 4px 6px  #86ce7f;
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 300px;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 25px;
+}
+
+.main-block a {
+    color:#f0fcf4;
+    background-color:#246b37;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    max-width: 300px;
+    font-weight: 500;
+    transition: all 0.8s;
+}
+
+.main-block a:hover {
     color: white;
-    padding: 5px;
+    background-color:#f2c40c;
 }
-
-.topicos{
-    text-align: ;
-}
-
-figure {
-    margin-bottom: 15px;
-    text-align: center;
-
-}
-
-figure img{
-    width: 300px;
-    height: auto;
-    border-radius: 5px;
-}
-
-.table-responsive {
-    width: 100%;
-    overflow-x: auto;
-}
-
-table{
-    border-collapse: collapse;
-    text-align: center;
-}
-
-th{
-    background-color: #08816d;
-    color: aliceblue;
-    padding: 0.6rem;
-}
-
 
 
 #topo{
@@ -112,15 +119,15 @@ th{
 }
 #topo a{
     text-decoration: none;
-    color: aliceblue;
+    color:#50a357;
 }
 #topo a:hover{
-    color: #edeba1;
+    color:#f2c40c;
 }
 
 footer{
-    background-color: #289c8e;
-    color: #e4d5f7;
+    background-color:#246b37;
+    color:#f0fcf4;
     text-align: center;
     padding: 20px 0px;
 }
